@@ -1,0 +1,267 @@
+html {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: 'Lora', serif;
+}
+
+h1{
+	font-size: 21px;
+	margin-top: 0;
+	margin-left: 5px;
+}
+span{
+	/*min-height: 100px;*/
+  	align-items: center;
+}
+
+#map {
+	height: 100%;
+	width: 100%;
+}
+
+#hand1{
+    width: 229px;
+    float: left;
+    z-index: 1000;
+    position: absolute;
+    top: 73px;
+ }
+
+#hand2{
+    width: 300px;
+    right: 56px;
+    z-index: 1000;
+    position: absolute;
+    bottom: 0px;
+ }
+
+.leaflet-container{
+	z-index: 400;
+}
+
+#expBar {
+	position: absolute;
+	top: 19px;
+	left: 19px;
+	height: 170px;
+	width: 96%;
+	z-index: 400;
+	background: rgba(253, 194, 178, 1);
+	padding: 7px;
+	box-sizing: border-box;
+	box-shadow: 10px 10px palevioletred;
+}
+
+/*.leaflet-tile-pane{
+	opacity: .6;
+}
+*/
+
+/* Left side of the Top Bar*/
+	#titles{
+	float: left;
+	width: 84%;
+	}
+
+	#title {
+		font-family: 'Pacifico', cursive;
+		padding-top: 24px;
+		font-size: 68px;
+		line-height: 38px;
+		padding-bottom: 16px;
+		text-align: center;
+		color: black;
+    	text-shadow: 4px 4px palevioletred;
+	}
+
+	#controls {
+		padding-top: 37px;
+		margin-top: -8px;
+		text-align: center;
+	}
+
+	button {
+	    background-color: #e7e7e7;
+    	border: none;
+    	color: black;
+    	padding: 10px 9px;
+    	text-align: center;
+    	text-decoration: none;
+    	display: inline-block;
+    	font-size: 13px;
+    	border-radius: 2px;
+	    -webkit-transition-duration: 0.2s; /* Safari */
+	    transition-duration: 0.2s;
+	    border-bottom: 5px solid white;
+
+	}
+
+	button:hover {
+	    /*background-color: #4CAF50; /* Green */*/
+	    color: white;
+	    outline-offset: -5px;
+	    border-bottom: 3px solid #DB7093;
+	}
+
+	.active {     
+	    background-color: #DB7093;
+	    color: white;
+	    outline:0;
+	}
+
+/* Right side of the Top Bar*/
+
+	#information {
+		float: right;
+		width: 16%;
+	}
+
+	#photo {
+		float: left;
+		margin-right: 10px;
+	}
+
+	#locationStats {
+		font-size: 12px;
+		max-width: 156px;
+    	padding-top: 34px;
+    	/*padding-left: 261px;*/
+    	font-family: 'Lato', sans-serif;
+    	color: white;
+	}
+
+	.about{
+    	line-height: 24px;
+    	font-weight: 700;
+	}
+
+	#titlePlate {
+		background-color: white
+	}
+
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 500; /* Sit on top */
+  padding-top: 50px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(176,32,37,0.95); /* Red w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  font-family: 'Didact Gothic', sans-serif;
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 100px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+/* Key */
+
+/*
+#infoBox {
+	position: absolute;
+	bottom: 25px;
+	left: 25px;
+	background: rgba(255, 255, 255, 0.95);
+	outline: 2px solid white;
+	outline-offset: 3px;
+    z-index: 10000000;
+    position: fixed;
+    padding: 15px;
+    }
+
+.keyImg{
+	height: 25px;
+	}
+
+#infoTitle{
+	text-align: center;
+    font-size: 15px;
+    font-style: oblique;
+    padding-bottom: 20px;
+    font-family: 'Lora';
+}
+
+.infoLine{
+	display: inline-flex;
+}
+
+#infoText{
+	text-align: left;
+	font-size: 12px;
+	font-family: 'system-ui';
+}*/

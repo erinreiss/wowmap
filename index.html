@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>WOW Love Letters To Chinatown</title>
+	<!-- links -->
+	<link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Patua+One|Shrikhand" rel="stylesheet">	<link rel="stylesheet" href="css/WOWstyle.css">
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,700;1,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+ <!-- The Map -->
+
+<div id="map"></div>
+
+ <!-- The Top Bar -->
+
+<div><img id="hand1" src="images/hand1.png"></img></div>
+
+<div><img id="hand2" src="images/hand2.png"></img></div>
+
+<div id="expBar">
+
+	<div id="titles">
+		<div><img src="images/bwlogo.png" padding-left="6px" style="width: 160px; float: left;"></img></div>
+		<div id="title">Love Letters to Chinatown</div>
+		<div id="controls">
+			<button id="button2019">2019</button>
+			<button id="button2020">2020</button>
+			<button id="buttonAll">All Years</button>
+		</div>
+	</div>
+	
+	<div id="information">
+		<!-- <div id="photoSpace"><img id="photo" src="images/wow_mottpell_E.jpg" style="image-orientation: from-image; height:155px;"></div> -->
+		<div id="locationStats">
+			<span class="about">ABOUT THIS LETTER</span>
+			<br><b>Writer:  </b><span class="name">Jade Song</span> 
+<!-- 			<br><b>Site Type:  </b> <span class="siteType">Residences</span>
+ -->			<br><b>Year Posted:  </b><span class="year">2020</span>
+			<br><b>Location:  </b><span class="treeCount">Chinatown</span>
+			<br><b>Address:  </b><span class="treeType">Mott & Pell</span>
+		</div>
+	</div>
+</div>
+
+
+<!-- Trigger the Modal -->
+
+<img id="myImg" style="width:100%;max-width:300px">
+
+<!-- The Modal -->
+
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01"> 
+
+</div>
+
+  <!-- Key  -->
+
+<!-- <div id = "infoBox">
+	<div id = "infoTitle">
+		Types of Sites
+	</div>
+	
+	<div id = "infoText">
+		<div><span class="infoLine"><img class="keyImg" src="images/park.png">Park</span></div>
+		<div><span class="infoLine"><img class="keyImg" src="images/communityGarden.png">Community Garden</span></div>
+		<div><span class="infoLine"><img class="keyImg" src="images/residences.png">Residences</span></div>
+		<div><span class="infoLine"><img class="keyImg" src="images/placeOfWorship.png">Place of Worship</span></div>
+		<div><span class="infoLine"><img class="keyImg" src="images/school.png">School</span></div>
+		<div><span class="infoLine"><img class="keyImg" src="images/serviceProvider.png">Service Provider</span></div>
+		<div><span class="infoLine"><img class="keyImg" src="images/streetside.png">Streetside</span></div>
+		<div><span class="infoLine"><img class="keyImg" src="images/communityCenter.png">Community Center</span></div>
+	</div>
+	
+</div> -->
+
+  <!-- Scripts  -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+<!-- <script src="https://rawgit.com/calvinmetcalf/leaflet-ajax/master/dist/leaflet.ajax.min.js"></script> -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="js/WOWscript.js"></script>
+
+</body>
+
+</html>
