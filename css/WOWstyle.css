@@ -57,6 +57,7 @@ span{
 	padding: 7px;
 	box-sizing: border-box;
 	box-shadow: 10px 10px palevioletred;
+	display: inline-flex;
 }
 
 /*.leaflet-tile-pane{
@@ -66,8 +67,7 @@ span{
 
 /* Left side of the Top Bar*/
 	#titles{
-	float: left;
-	width: 84%;
+	width: 85%;
 	}
 
 	#title {
@@ -168,29 +168,42 @@ span{
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(176,32,37,0.95); /* Red w/ opacity */
+  background-color: rgba(176,32,37,0.975); /* Red w/ opacity */
 }
 
 /* Modal Content (Image) */
 .modal-content {
-  margin: auto;
   display: block;
   width: 80%;
   max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 87px;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
   font-family: 'Didact Gothic', sans-serif;
+  font-size: 28px;
   margin: auto;
   display: block;
   width: 80%;
   max-width: 700px;
   text-align: center;
   color: #ccc;
-  padding: 10px 0;
-  height: 100px;
+  padding-top: 12px;
+  padding-bottom: 31px;
+}
+
+#translationM {
+   margin-left: auto;
+   margin-right: auto;
+   font-family: 'Didact Gothic', sans-serif;
+   font-size: 20px;
+   display: block;
+   max-width: 700px;
+   color: #ccc;
+   padding-bottom: 126px;
 }
 
 /* Add Animation - Zoom in the Modal */
