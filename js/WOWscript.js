@@ -3,7 +3,8 @@
 		zoomControl: false,
 		// layers: [cities, cities14]
 	})
-		.setView([40.715198, -73.994695], 15); 
+		.setView([40.720488, -73.994496], 15);  
+
 
 // Setting up the scrollable boundaries of the Map - silly, you can still pan
   // var p1 = L.latLng(38.078390, -122.808915),
@@ -13,7 +14,7 @@
 
 //Set Up Basemap Tiles From Stamen
 L.tileLayer('https://api.mapbox.com/styles/v1/erinreiss/ckb4enizs1tz81jnw0gren53l/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiZXJpbnJlaXNzIiwiYSI6ImNqOG84NWlnMDAwZnkyd3VtdnF4M2loNnkifQ.wpD0CzpyEpI2Pda7sVhGtw', {
-	attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+	attribution: '<a href="http://mapbox.com/about/maps">Mapbox ©</a>, <a href="https://www.openstreetmap.org/copyright">OpenStreetMap ©</a> | <a href="https://apps.mapbox.com/feedback/">Improve this map</a>',
   maxZoom: 19,
 	minZoom: 13
 }).addTo(map);
@@ -285,7 +286,7 @@ var treePoints = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -73.9992513,40.7180353 ]
+       "coordinates":  [ -73.999160, 40.717942 ]
     },
     "properties": {
     "titleL":"Kam Hing",
@@ -294,7 +295,7 @@ var treePoints = {
     "year":"2020",
     "address":"118 Baxter St, New York, NY 10013",
     "siteType":"Letter",
-    "translation":""
+    "translation":"" , 
     }
   },
   {
@@ -413,7 +414,7 @@ var treePoints = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -73.9982591,40.7144578 ]
+       "coordinates":  [ -73.998186,40.714509 ] 
     },
     "properties": {
     "titleL":"Nom Wah Tea Parlor ",
@@ -530,7 +531,7 @@ var treePoints = {
     "properties": {
     "titleL":"Harold L. Lee & Sons Inc.",
     "name":"Rebecca Lee",
-    "photo":"images/wow_haroldllee(1/7)_E.jpg ",
+    "photo":"images/wow_haroldllee_E.jpg",
     "year":"2020",
     "address":"67 Pell St, New York, NY 10013",
     "siteType":"Letter",

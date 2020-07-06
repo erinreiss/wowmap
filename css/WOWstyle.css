@@ -26,6 +26,18 @@ span{
 	width: 100%;
 }
 
+/*.leaflet-right {
+    left: 0;
+}
+
+.leaflet-right .leaflet-control {
+    float: left;
+  }
+
+.leaflet-right .leaflet-control {
+    margin-left: 10px;
+}*/
+
 #hand1{
     width: 229px;
     float: left;
