@@ -5,7 +5,7 @@ html {
 }
 
 body {
-	height: 100%;
+	/*height: 100%;*/
 	padding: 0;
 	margin: 0;
 	font-family: 'Lora', serif;
@@ -18,30 +18,36 @@ h1{
 }
 span{
 	/*min-height: 100px;*/
-  	align-items: center;
+  align-items: center;
+}
+
+#pageWrapper {
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
 }
 
 #map {
-	height: 100%;
-	width: 100%;
+	flex-grow : 1;
 }
 
-/*.leaflet-right {
-    left: 0;
+.leaflet-right {
+    left: 0 !important;
 }
 
 .leaflet-right .leaflet-control {
-    float: left;
+    float: left !important;
   }
 
-.leaflet-right .leaflet-control {
-    margin-left: 10px;
-}*/
+/*This seems to not be working*/
+.leaflet-control-zoom {
+    margin-left: 10px !important;
+}
 
 #hand1{
     width: 229px;
     float: left;
-    z-index: 1000;
+    z-index: 20000;
     position: absolute;
     top: 73px;
  }
@@ -49,19 +55,25 @@ span{
 #hand2{
     width: 300px;
     right: 56px;
-    z-index: 1000;
+    z-index: 20000;
     position: absolute;
     bottom: 0px;
  }
 
 .leaflet-container{
-	z-index: 400;
+	/*z-index: 400;*/
+}
+
+#expBarWrapper {
+  background-image: url("https://erinreiss.github.io/wowmap/images/staticMapPic.png");
+  background-color: #d2d5d5;
+  background-size: cover;
 }
 
 #expBar {
-	position: absolute;
-	top: 19px;
-	left: 19px;
+  margin-top: 19px;
+  margin-left: 19px;
+  margin-bottom: 10px;
 	height: 170px;
 	width: 96%;
 	z-index: 400;
@@ -140,15 +152,14 @@ span{
 		margin-right: 10px;
 	}
 
-	#locationStats {
+/*	#locationStats {
 		font-size: 12px;
 		max-width: 156px;
     	padding-top: 34px;
-    	/*padding-left: 261px;*/
     	font-family: 'Lato', sans-serif;
     	color: white;
 	}
-
+*/
 	.about{
     	line-height: 24px;
     	font-weight: 700;
@@ -173,12 +184,12 @@ span{
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  z-index: 500; /* Sit on top */
+  z-index: 1200; /* Sit on top */
   padding-top: 50px; /* Location of the box */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
+  width: 100vw; /* Full width */
+  height: 100vh; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: rgba(176,32,37,0.975); /* Red w/ opacity */
 }

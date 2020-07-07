@@ -3,7 +3,7 @@
 		zoomControl: false,
 		// layers: [cities, cities14]
 	})
-		.setView([40.720488, -73.994496], 15);  
+		.setView([40.714471, -73.996044], 17);  
 
 
 // Setting up the scrollable boundaries of the Map - silly, you can still pan
@@ -22,7 +22,7 @@ L.control.zoom({position: 'bottomright'}).addTo(map);
 
 
 //Define my data
-var treePoints = {
+var myPoints = {
 
    "type": "FeatureCollection",
    "features": [
@@ -563,7 +563,7 @@ var iconLetterClicked = L.icon({
 //Load External geoJSON but don't add to map
 // var myJson = $.getJSON('./js/geoJSON.json',function(data){});
 
-// var panMarkers = L.geoJson(treePoints, {
+// var panMarkers = L.geoJson(myPoints, {
 			// onEachFeature: function (feature, layer) {
 			// }
 		// });
@@ -571,7 +571,7 @@ var iconLetterClicked = L.icon({
 var markersLayer = new L.LayerGroup(); // NOTE: Layer is created here!
 
 function addMarkersForYearAndSiteType(aYear, aType, anIcon) {
-  var geojsonLayer = L.geoJson(treePoints,{
+  var geojsonLayer = L.geoJson(myPoints,{
     onEachFeature: makeMarkers,
     filter: function (feature, layer) {
       return feature.properties.siteType == aType && feature.properties.year == aYear; 
@@ -584,7 +584,7 @@ function addMarkersForYearAndSiteType(aYear, aType, anIcon) {
 }
 
 function addMarkersForSiteType(aType, anIcon) {
-  var geojsonLayer = L.geoJson(treePoints,{
+  var geojsonLayer = L.geoJson(myPoints,{
     onEachFeature: makeMarkers,
     filter: function (feature, layer) {
       return feature.properties.siteType == aType; 
