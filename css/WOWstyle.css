@@ -21,6 +21,10 @@ span{
   align-items: center;
 }
 
+.leaflet-popup-content-wrapper .leaflet-popup-content {
+  font-family: 'Nunito', sans-serif;
+}
+
 #pageWrapper {
   display: flex;
   flex-flow: column;
@@ -49,7 +53,7 @@ span{
     float: left;
     z-index: 20000;
     position: absolute;
-    top: 73px;
+    top: 84px;
  }
 
 #hand2{
@@ -77,10 +81,12 @@ span{
 	height: 170px;
 	width: 96%;
 	z-index: 400;
-	background: rgba(253, 194, 178, 1);
+	/*background: rgba(253, 194, 178, 1); /* Aaron's OG Color of actual box */
+  background: #FDC2B2;
 	padding: 7px;
 	box-sizing: border-box;
-	box-shadow: 10px 10px palevioletred;
+  /*box-shadow: 10px 10px palevioletred; /* Aaron's OG Color of box shadow */
+	box-shadow: 10px 10px #623F7E;
 	display: inline-flex;
 }
 
@@ -102,7 +108,8 @@ span{
 		padding-bottom: 16px;
 		text-align: center;
 		color: black;
-    	text-shadow: 4px 4px palevioletred;
+    /*text-shadow: 4px 4px palevioletred; /* Aaron's OG Color of text shadow*/
+    text-shadow: 4px 4px white;
 	}
 
 	#controls {
@@ -128,14 +135,15 @@ span{
 	}
 
 	button:hover {
-	    /*background-color: #4CAF50; /* Green */*/
 	    color: white;
 	    outline-offset: -5px;
-	    border-bottom: 3px solid #DB7093;
+	    /*border-bottom: 3px solid #DB7093; /* Aaron's OG Color*/
+      border-bottom: 3px solid #623F7E;
 	}
 
 	.active {     
-	    background-color: #DB7093;
+	   /*background-color: 3px solid #DB7093; /* Aaron's OG Color*/
+      background-color: #623F7E;
 	    color: white;
 	    outline:0;
 	}
@@ -191,7 +199,7 @@ span{
   width: 100vw; /* Full width */
   height: 100vh; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgba(176,32,37,0.975); /* Red w/ opacity */
+  background-color: rgba(149,37,34,0.975); /* Red w/ opacity */
 }
 
 /* Modal Content (Image) */
@@ -205,16 +213,30 @@ span{
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
-#caption {
-  font-family: 'Didact Gothic', sans-serif;
-  font-size: 28px;
+#captionTitle {
+  font-family: 'Gentium Book Basic', serif;
+  font-weight: 700;
+  font-size: 43px;
   margin: auto;
   display: block;
   width: 80%;
   max-width: 700px;
   text-align: center;
   color: #ccc;
-  padding-top: 12px;
+  padding-top: 13px;
+}
+
+#caption {
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding-top: 2px;
   padding-bottom: 31px;
 }
 

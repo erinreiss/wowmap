@@ -665,6 +665,7 @@ var modal = document.getElementById("myModal");
 var img = document.getElementById("myImg");
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
+var captionTitle = document.getElementById("captionTitle");
 var translationText = document.getElementById("translationM");
 
 
@@ -704,7 +705,8 @@ function makeMarkers(feature, layer) {
     //Create Modal
       modal.style.display = "block";
       modalImg.src = this.feature.properties.photo;
-      captionText.innerHTML = "A Love Letter to " + this.feature.properties.titleL + "</br> by " + this.feature.properties.name + "</br> Year Posted: " + this.feature.properties.year+ "</br> Address: " + this.feature.properties.address;
+      captionTitle.innerHTML = "A Love Letter to " + this.feature.properties.titleL;
+      captionText.innerHTML = "by " + this.feature.properties.name + "</br> Year Posted: " + this.feature.properties.year+ "</br> Address: " + this.feature.properties.address;
       translationText.innerHTML = "<center>" + "<strong>" + "Translations / " + "</strong>" + "翻譯" + " </center>" + "</br>" + this.feature.properties.translation;
       console.log(modalImg.src);
 	});
