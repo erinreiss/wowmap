@@ -49,7 +49,7 @@ span{
 }
 
 #hand1{
-    width: 229px;
+    width: 292px;
     float: left;
     z-index: 20000;
     position: absolute;
@@ -64,6 +64,13 @@ span{
     bottom: 0px;
  }
 
+ #paper{
+    width: 100%;
+    top: 0px;
+    z-index: 600;
+    position: absolute;
+ }
+
 .leaflet-container{
 	/*z-index: 400;*/
 }
@@ -72,45 +79,36 @@ span{
   background-image: url("https://erinreiss.github.io/wowmap/images/staticMapPic.png");
   background-color: #d2d5d5;
   background-size: cover;
+  display: flex;
+  justify-content: center;
 }
 
 #expBar {
-  margin-top: 19px;
-  margin-left: 19px;
-  margin-bottom: 10px;
-	height: 170px;
-	width: 96%;
+	height: 107px;
+	width: 65%;
 	z-index: 400;
-	/*background: rgba(253, 194, 178, 1); /* Aaron's OG Color of actual box */
-  background: #FDC2B2;
-	padding: 7px;
-	box-sizing: border-box;
-  /*box-shadow: 10px 10px palevioletred; /* Aaron's OG Color of box shadow */
-	box-shadow: 10px 10px #623F7E;
-	display: inline-flex;
-}
+  background: #E1C451;
+  box-shadow: 10px 10px #952522;
+	display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  justify-content: center;
 
-/*.leaflet-tile-pane{
-	opacity: .6;
 }
-*/
-
-/* Left side of the Top Bar*/
-	#titles{
-	width: 85%;
-	}
 
 	#title {
 		font-family: 'Pacifico', cursive;
-		padding-top: 24px;
-		font-size: 68px;
-		line-height: 38px;
-		padding-bottom: 16px;
+		font-size: 50px;
 		text-align: center;
-		color: black;
-    /*text-shadow: 4px 4px palevioletred; /* Aaron's OG Color of text shadow*/
-    text-shadow: 4px 4px white;
+		color: white;
+    text-shadow: 4px 4px palevioletred;
 	}
+
+  #wowLogo {
+    width: 90px;
+    padding-left: 43px;
+  }
 
 	#controls {
 		padding-top: 37px;
