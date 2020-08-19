@@ -68,6 +68,7 @@ var myPoints = {
     "titleL":"Chinatown",
     "name":"Jade Song",
     "photo":"images/wow_mottpell_E.jpg",
+    "photoPost":"images/wow_tantinhung_P.jpg",
     "year":"2020",
     "address":"123 Bowery 2nd fl, New York, NY 10002",
     "siteType":"Letter",
@@ -84,6 +85,7 @@ var myPoints = {
     "titleL":"Magic Jewelry",
     "name":"Lindsey Keeler",
     "photo":"images/wow_magicjewelry_E.jpg",
+    "photoPost":"images/wow_tantinhung_P.jpg",
     "year":"2020",
     "address":"238 Canal St #108, New York, NY 10013, USA",
     "siteType":"Letter",
@@ -100,6 +102,7 @@ var myPoints = {
     "titleL":"Tan Tin Hung",
     "name":"Parker Limon",
     "photo":"images/wow_tantinhung_E.jpg",
+    "photoPost":"images/wow_tantinhung_P.jpg",
     "year":"2020",
     "address":"121 Bowery, New York, NY 10002, USA",
     "siteType":"Letter",
@@ -132,6 +135,7 @@ var myPoints = {
     "titleL":"Xin Zhong Shen Market",
     "name":"Ying Cai2",
     "photo":"images/wow_xinzhongshen_E.jpg",
+    "photoPost":"images/wow_tantinhung_P.jpg",
     "year":"2020",
     "address":"109 E Broadway, New York, NY 10002 USA",
     "siteType":"Letter",
@@ -164,6 +168,7 @@ var myPoints = {
     "titleL":"Good Century Cafe",
     "name":"Rachel Skipor",
     "photo":"images/wow_goodcenturycafe_E.jpg",
+    "photoPost":"images/wow_tantinhung_P.jpg",
     "year":"2020",
     "address":"243 Grand St, New York, NY 10002 USA",
     "siteType":"Letter",
@@ -292,6 +297,7 @@ var myPoints = {
     "titleL":"Kam Hing",
     "name":"King Saturday",
     "photo":"images/wow_kamhing_E.jpg",
+    "photoPost":"none",
     "year":"2020",
     "address":"118 Baxter St, New York, NY 10013",
     "siteType":"Letter",
@@ -308,6 +314,7 @@ var myPoints = {
     "titleL":"Kam Hing",
     "name":"Aaron Reiss",
     "photo":"images/wow_AaronReiss_E.jpg",
+    "photoPost":"images/wow_tantinhung_P.jpg",
     "year":"2020",
     "address":"118 Baxter St, New York, NY 10013",
     "siteType":"Letter",
@@ -340,6 +347,7 @@ var myPoints = {
     "titleL":"New Shanghai Deluxe",
     "name":"Michelle Ling",
     "photo":"images/wow_shanghaideluxe_C.jpg",
+    "photoPost":"images/wow_tantinhung_P.jpg",
     "year":"2020",
     "address":"50 Mott St, New York, NY 10013",
     "siteType":"Letter",
@@ -388,6 +396,7 @@ var myPoints = {
     "titleL":"Chinatown Ice Cream Factory",
     "name":"Jenny Chang",
     "photo":"images/wow_icecreamfactory2_C.jpg",
+    "photoPost":"images/wow_tantinhung_P.jpg",
     "year":"2020",
     "address":"65 Bayard St, New York, NY 10013",
     "siteType":"Letter",
@@ -664,6 +673,7 @@ $(document).ready(function() {
 var modal = document.getElementById("myModal");
 var img = document.getElementById("myImg");
 var modalImg = document.getElementById("img01");
+var modalImgP = document.getElementById("img02");
 var captionText = document.getElementById("caption");
 var captionTitle = document.getElementById("captionTitle");
 var translationText = document.getElementById("translationM");
@@ -705,10 +715,18 @@ function makeMarkers(feature, layer) {
     //Create Modal
       modal.style.display = "block";
       modalImg.src = this.feature.properties.photo;
+      modalImgP.src = this.feature.properties.photoPost;
       captionTitle.innerHTML = "A Love Letter to " + this.feature.properties.titleL;
       captionText.innerHTML = "by " + this.feature.properties.name + "</br> Year Posted: " + this.feature.properties.year+ "</br> Address: " + this.feature.properties.address;
       translationText.innerHTML = "<center>" + "<strong>" + "Translations / " + "</strong>" + "翻譯" + " </center>" + "</br>" + this.feature.properties.translation;
-      console.log(modalImg.src);
+      // console.log (this.feature.properties.photoPost);
+      console.log(modalImgP.src);
+      if (modalImgP.src = "http://localhost:8000/undefined"){
+        document.getElementById("img02").style.display = "none";
+      }
+      else {
+        document.getElementById("img02").style.display = "block";
+      }
 	});
 }; 
 
