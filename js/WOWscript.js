@@ -101,7 +101,7 @@ var myPoints = {
     "properties": {
     "titleL":"Tan Tin Hung",
     "name":"Parker Limon",
-    "photo":"images/wow_tantinhung_E.jpg",
+    "photo":"images/wow_tantinhung_C.jpg",
     "photoPost":"images/wow_tantinhung_P.jpg",
     "year":"2020",
     "address":"121 Bowery, New York, NY 10002, USA",
