@@ -123,6 +123,11 @@ span{
 		text-align: center;
 	}
 
+  #popUpImage{
+    padding-top: 6px;
+    height:155px;
+  }
+
 	button {
 	    background-color: #e7e7e7;
     	border: none;
@@ -214,7 +219,6 @@ span{
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 87px;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
@@ -231,7 +235,7 @@ span{
   padding-top: 13px;
 }
 
-#caption {
+.caption {
   font-family: 'Nunito', sans-serif;
   font-size: 24px;
   font-weight: 200;
@@ -241,8 +245,6 @@ span{
   max-width: 700px;
   text-align: center;
   color: #ccc;
-  padding-top: 2px;
-  padding-bottom: 31px;
 }
 
 #translationM {
@@ -292,39 +294,24 @@ span{
   }
 }
 
-/* Key */
-
-/*
-#infoBox {
-	position: absolute;
-	bottom: 25px;
-	left: 25px;
-	background: rgba(255, 255, 255, 0.95);
-	outline: 2px solid white;
-	outline-offset: 3px;
-    z-index: 10000000;
-    position: fixed;
-    padding: 15px;
-    }
-
-.keyImg{
-	height: 25px;
-	}
-
-#infoTitle{
-	text-align: center;
-    font-size: 15px;
-    font-style: oblique;
-    padding-bottom: 20px;
-    font-family: 'Lora';
+#img01{
+  padding-top: 8vh;
+  padding-bottom: 10vh;
 }
 
-.infoLine{
-	display: inline-flex;
+#img02{
+  padding-bottom: 6vh;
 }
 
-#infoText{
-	text-align: left;
-	font-size: 12px;
-	font-family: 'system-ui';
-}*/
+#translationTitle{
+  font-family: 'Gentium Book Basic', serif;
+  font-weight: 700;
+  font-size: 25px;
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding-bottom: 6vh;
+}

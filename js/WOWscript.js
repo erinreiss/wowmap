@@ -23,7 +23,7 @@ L.control.zoom({position: 'bottomright'}).addTo(map);
 
 //Define my data
 var myPoints = {
-   
+
    "type": "FeatureCollection",
    "features": [
   {
@@ -633,7 +633,7 @@ var myPoints = {
     "photo":"images/wow_mulberrystreet_C.jpg",
     "photoPost":"",
     "year":2020,
-    "address":"NA",
+    "address":"",
     "siteType":"Letter",
     "translation":""
     }
@@ -650,7 +650,7 @@ var myPoints = {
     "photo":"images/wow_rat_E.jpg",
     "photoPost":"",
     "year":2020,
-    "address":"NA",
+    "address":"",
     "siteType":"Letter",
     "translation":""
     }
@@ -667,7 +667,7 @@ var myPoints = {
     "photo":"images/wow_brooklyn_E.jpg",
     "photoPost":"",
     "year":2020,
-    "address":"NA",
+    "address":"",
     "siteType":"Letter",
     "translation":"給唐人街愛，<br><br>我已經在紐約住了三十多年，這期間我一直覺得被歡迎。感謝你向紐約人和全世界人敞開你的大門。也感謝W.O.W.計畫將唐人街社區的的傳統和未來昇華並保留。<br><br>W.O.W.計畫旨在通過藝術、文化、行動主義來培養、保護、及傳承中國城的創意文化，以延續對中國城未來的所有權。<br><br>這對於唐人街來說很美麗也很具體，但這可以啟發紐約市所有的社區。<br><br>平安——<br>Toshi Reagon<br><br>布魯克林，紐約<br>"
     }
@@ -684,7 +684,7 @@ var myPoints = {
     "photo":"images/wow_RM_E.jpg",
     "photoPost":"",
     "year":2020,
-    "address":"NA",
+    "address":"",
     "siteType":"Letter",
     "translation":"2020-04-10 14-09 － by RM<br><br>我們將重生<br>只為了再次死去<br>這些街道還有脈搏<br>即使河流改變方向<br>就像陰晴圓缺<br>圓滿才會更加璀璨<br>對於失去的回憶<br>只是更多的層次<br>被車輪<br>印進土壤<br>未來的根<br>會在那兒找到我們<br><br>麥捷兒 4.10.2020"
     }
@@ -701,7 +701,7 @@ var myPoints = {
     "photo":"images/wow_canalst_C.jpg",
     "photoPost":"images/wow_KazumiSakamoto_P.jpg",
     "year":2020,
-    "address":"NA",
+    "address":"",
     "siteType":"Letter",
     "translation":""
     }
@@ -718,7 +718,7 @@ var myPoints = {
     "photo":"images/wow_CharleneWangdeChen_E.jpg",
     "photoPost":"",
     "year":2020,
-    "address":"NA",
+    "address":"",
     "siteType":"Letter",
     "translation":"加油！<br>這是我用草稿紙寫的，看到這個的婆婆和伯母們一定放心，我沒有多浪費紙張，我用的是家裡的草稿紙 ；）"
     }
@@ -735,7 +735,7 @@ var myPoints = {
     "photo":"images/wow_eldridgest_E.jpg",
     "photoPost":"",
     "year":2020,
-    "address":"NA",
+    "address":"",
     "siteType":"Letter",
     "translation":"給這個社區和這個社區了不起的人們送去愛。我現在已經在愛烈治街住了四年了，一直以來都覺的很被接受和歡迎。請在這黑暗的時間裡堅持著、團結住！<br><br>祝好！<br>勞拉<br>愛烈治街二十四號<br><br>Laura Bennegadi"
     }
@@ -752,7 +752,7 @@ var myPoints = {
     "photo":"images/wow_FannyLi_E.jpg",
     "photoPost":"images/wow_FannyLi_P.jpg",
     "year":2020,
-    "address":"NA",
+    "address":"",
     "siteType":"Letter",
     "translation":"情愛的唐人街，<br><br>我是人生的後段才與你相見。事實是，我當時很緊張因為不知道你會不會喜歡我，接受我和包容我。 <br><br>當時的我不知道你的語言，你的风格，你的顏色，你的味道，你的習俗，你的形狀，你的曲線。<br><br>我怕被排斥，讓紐約唐人街變成另一個我不屬於的地方因為我不夠「亞裔」。我的心承受不了這種拒絕，我接受不了。<br><br>但是你，你坦然的接受了我，我也溶解在你的擁抱裡。像菠蘿包裡的黃油，你的愛和溫暖讓我進入了你甜美的懷抱中。<br><br>你挑戰了我，讓我給自己留空間，鼓勵我做自己。我接受了。<br><br>現在我要挑戰你，为了我们，为了历史，为了未来，保持冷靜和龐大的适应能力。<br><br>请原谅我又一次离开那么久。像上一次，我约定我会回来的。不一样的是，我会不顾一切的做自己。<br><br>希望你们能休息一下，保持安全。<br><br>等我们再次相遇， <br>李永霖<br>Fanny"
     }
@@ -769,7 +769,7 @@ var myPoints = {
     "photo":"images/wow_grandstreetpark_E.jpg",
     "photoPost":"",
     "year":2020,
-    "address":"NA",
+    "address":"",
     "siteType":"Letter",
     "translation":"格蘭街共 Aaron Tian<br><br>在格蘭街公園的長椅上<br><br>華豐燒豬燒鴨在我膝頭咸甜的香氣在我旁邊長椅上<br>坐著打牌的老人之間漂浮<br><br>孩童姐妹兄弟們在跑道上比賽在同一個呼吸中打鬧、吵嚷、大笑<br>像初生的小狗一樣互相絆倒<br><br>穿著卡其褲戴著遮陽帽的奶奶們<br>對著一個2002年的CD音箱跳舞<br>動作（幾乎）完美地和諧<br><br>在我遇到我對象的那個長椅<br>（至少是我們第一次講話的那次）<br>兩個長椅開外，喝著功夫茶的香芋冰沙<br>至今仍是我的最愛<br><br>在水泥球場<br>我曾看到幾個八十歲的男人<br>強力擋拆幾個筋肉分明的男大學生<br><br>手球場，猖狂地揮動臂膀和雙手，<br>我或永遠不會理解，但一直都將敬佩<br><br>如此熟悉如此特別的唐人街<br>現在似乎遠在一個世界以外<br>我第一次墜入愛河的地方<br><br>在格蘭街公園的長椅上"
     }
@@ -786,7 +786,7 @@ var myPoints = {
     "photo":"images/wow_JessicaLaus_E.jpg",
     "photoPost":"",
     "year":2020,
-    "address":"NA",
+    "address":"",
     "siteType":"Letter",
     "translation":"當我第一次拜訪唐人街時，我被那強烈的社區意識所感動。<br>我的心與你同在。<br>很快與你再相會。"
     }
@@ -820,7 +820,7 @@ var myPoints = {
     "photo":"images/wow_koysuntichotinun_E.jpg",
     "photoPost":"",
     "year":2020,
-    "address":"NA",
+    "address":"",
     "siteType":"Letter",
     "translation":"Koysun Suntichotinun<br>家。<br>給唐人街的信<br>寶島肉酥"
     }
@@ -837,7 +837,7 @@ var myPoints = {
     "photo":"images/wow_LauraE_E.jpg",
     "photoPost":"",
     "year":2020,
-    "address":"NA",
+    "address":"",
     "siteType":"Letter",
     "translation":""
     }
@@ -854,7 +854,7 @@ var myPoints = {
     "photo":"images/wow_MargaretYuen_C.jpg",
     "photoPost":"",
     "year":2020,
-    "address":"NA",
+    "address":"",
     "siteType":"Letter",
     "translation":""
     }
@@ -871,7 +871,7 @@ var myPoints = {
     "photo":"images/wow_MayaMan_E.jpg",
     "photoPost":"",
     "year":2020,
-    "address":"NA",
+    "address":"",
     "siteType":"Letter",
     "translation":"加油加油加油！<br>大家都會為你加油！你會變的更強！"
     }
@@ -905,7 +905,7 @@ var myPoints = {
     "photo":"images/wow_NancyMa_C.jpg",
     "photoPost":"",
     "year":2020,
-    "address":"NA",
+    "address":"",
     "siteType":"Letter",
     "translation":""
     }
@@ -922,7 +922,7 @@ var myPoints = {
     "photo":"images/wow_NoraBryson_E.jpg",
     "photoPost":"",
     "year":2020,
-    "address":"NA",
+    "address":"",
     "siteType":"Letter",
     "translation":"To: Chinatown <br>From: Nora Bryson<br>親愛的唐人街，<br><br>你的堅韌是傳奇。你的勇氣是鼓勵。不要放棄希望！<br>我們愛你，我們珍惜你，我們很快就會再見到你。<br>現在和永遠都會想著你。<br><br>諾拉"
     }
@@ -939,7 +939,7 @@ var myPoints = {
     "photo":"images/wow_pellst_E.jpg",
     "photoPost":"images/wow_JiamiLee_P.jpg",
     "year":2020,
-    "address":"NA",
+    "address":"",
     "siteType":"Letter",
     "translation":"飛馬堅持勇敢，<br><br>唐人街繼續發亮<br><br>我們會再見的"
     }
@@ -956,7 +956,7 @@ var myPoints = {
     "photo":"images/wow_KimSandara_E.jpg",
     "photoPost":"",
     "year":2020,
-    "address":"NA",
+    "address":"",
     "siteType":"Letter",
     "translation":"親愛的唐人街，<br><br>2020年是鼠年，新冠病毒的爆發令這一年變成一個很難受的一年。我覺得我們應該看看水豚，世界上最大的啮齿动物。讓我們看看它有什麼指導。這個誠實的動物在怎麼多動物中是最善良的。我們應該向它學習，學一學它溫和，喜靜的脾氣。我希望你放出去的正能量能回到你身邊。我祝你們幸福；我向你們每個献出一份爱心。<br><br>此致, <br>Kimmy Sandara"
     }
@@ -973,7 +973,7 @@ var myPoints = {
     "photo":"images/wow_AllyPratt_E.jpg",
     "photoPost":"",
     "year":2020,
-    "address":"NA",
+    "address":"",
     "siteType":"Letter",
     "translation":"親愛的唐人街，您好嗎？我想您。<br><br>我想念您週日早晨向我問候的方式，我在週日早晨餃子想念您的餃子。<br><br>我想念您的街道與活力，我想念有完全沒預料到的寂靜。<br><br>我想念您的燈光聲色，您是我的紐約。每個街角都有驚喜，有著這麼多的故事、這麼多的秘密。<br><br>我想念與您獨處，我想念一起結交朋友。我想念看見熟悉的臉孔，也想念見著這麼多陌生人。<br><br>我想念每天都可以吃餃子。<br><br>我想念漫遊，也想念返家。我很快就會回家。<br><br><br>愛您的艾麗"
     }
@@ -990,7 +990,7 @@ var myPoints = {
     "photo":"images/wow_vanessanguyen_E.jpg",
     "photoPost":"",
     "year":2020,
-    "address":"NA",
+    "address":"",
     "siteType":"Letter",
     "translation":"我想念在麒麟金閣下親吻你，<br><br>以及大半夜的食品採購之旅，<br><br>還有品嚐一塊錢蛋塔，<br><br>也想念尋找著超划算的餃子，<br><br>我每天都好想念。<br><br>凡妮莎"
     }
@@ -1007,7 +1007,7 @@ var myPoints = {
     "photo":"images/wow_verachow_E.jpg",
     "photoPost":"images/wow_VeraChow_P.jpg",
     "year":2020,
-    "address":"NA",
+    "address":"",
     "siteType":"Letter",
     "translation":"#留在家<br>#距離遠點<br><br>老夫老妻<br><br>單身狗<br><br>媽媽和孩子"
     }
@@ -1024,7 +1024,7 @@ var myPoints = {
     "photo":"images/wow_StudioLies_C.jpg",
     "photoPost":"",
     "year":2020,
-    "address":"NA",
+    "address":"",
     "siteType":"Letter",
     "translation":"GO CHINATOWN! <br>交友"
     }
@@ -1155,8 +1155,10 @@ var modal = document.getElementById("myModal");
 var img = document.getElementById("myImg");
 var modalImg = document.getElementById("img01");
 var modalImgP = document.getElementById("img02");
-var captionText = document.getElementById("caption");
 var captionTitle = document.getElementById("captionTitle");
+var captionName = document.getElementById("captionName");
+var captionYear = document.getElementById("captionYear");
+var captionAddress = document.getElementById("captionAddress");
 var translationText = document.getElementById("translationM");
 
 
@@ -1180,12 +1182,23 @@ function makeMarkers(feature, layer) {
     $('.address').text(feature.properties.address)
 
   //Pop ups on mousein
-    this._popup.setContent("<center>" + "<strong>" + feature.properties.titleL + "</strong>" + "</br>" + feature.properties.address + "</br>" + "</br>" + "<img style = height:155px; src=" + feature.properties.photo + ">" + "</center>")
+    this._popup.setContent("<center>" + "<strong>" + feature.properties.titleL + "</strong>" + "</br>" + "<div id=popUpAddress>" + feature.properties.address + "</div>" + "<img id=popUpImage src=" + feature.properties.photo + ">" + "</center>")
     });
     layer.on('mouseout', function (e) {
       e.target.setIcon(iconLetter);
       this.closePopup();
     });
+
+
+    function isNA(address){
+      // if address is NA, return the Small Baby
+        if (address == "NA") {
+          return "Small Baby"
+        } else {
+          // else, return the address
+          return address
+        }
+      };
  
   //On Click
 	layer.on("click", function(e){
@@ -1197,17 +1210,36 @@ function makeMarkers(feature, layer) {
       modal.style.display = "block";
       modalImg.src = this.feature.properties.photo;
       modalImgP.src = this.feature.properties.photoPost;
+      isNA(feature.properties.address)
+      console.log(isNA(this.feature.properties.address));
       captionTitle.innerHTML = "A Love Letter: " + this.feature.properties.titleL;
-      captionText.innerHTML = "by " + this.feature.properties.name + "</br> Year Posted: " + this.feature.properties.year+ "</br> Address: " + this.feature.properties.address;
-      translationText.innerHTML = "<center>" + "<strong>" + "Translations / " + "</strong>" + "翻譯" + " </center>" + "</br>" + this.feature.properties.translation;
+      captionName.innerHTML = "by " + this.feature.properties.name
+      captionYear.innerHTML = "Year Posted: " + this.feature.properties.year
+      captionAddress.innerHTML = "Address: " + this.feature.properties.address
+      translationText.innerHTML = this.feature.properties.translation;
       // console.log (this.feature.properties.photoPost);
       console.log(modalImgP.src);
-      // if (modalImgP.src = "http://localhost:8000/undefined"){
-        // document.getElementById("img02").style.display = "none";
-      // }
-      // else {
-        // document.getElementById("img02").style.display = "block";
-      // }
+      //Dissapear Posting Photo div if there is no posting photo
+      if (modalImgP.src == "http://localhost:8000/"){
+        document.getElementById("img02").style.display = "none";
+      }
+      else {
+        document.getElementById("img02").style.display = "block";
+      }
+      //Dissapear Translation div if there is no translation
+      if (this.feature.properties.translation == ""){
+        document.getElementById("translationBox").style.display = "none";
+      }
+      else {
+        document.getElementById("translationBox").style.display = "block";
+      }
+      //Dissapear Address in modal if there is no address
+      if (this.feature.properties.address == ""){
+        document.getElementById("captionAddress").style.display = "none";
+      }
+      else {
+        document.getElementById("captionAddress").style.display = "block";
+      }
 	});
 }; 
 
