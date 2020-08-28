@@ -987,7 +987,7 @@ var myPoints = {
     "properties": {
     "titleL":"I miss you",
     "name":"Vanessa Nguyen",
-    "photo":"images/wow_vanessanguyen_E.jpg",
+    "photo":"images/wow_VanessaNguyen_E.jpg",
     "photoPost":"",
     "year":2020,
     "address":"",
@@ -1004,7 +1004,7 @@ var myPoints = {
     "properties": {
     "titleL":"#StayHome",
     "name":"Vera Chow",
-    "photo":"images/wow_verachow_E.jpg",
+    "photo":"images/wow_VeraChow_E.jpg",
     "photoPost":"images/wow_VeraChow_P.jpg",
     "year":2020,
     "address":"",
