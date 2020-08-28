@@ -1211,14 +1211,14 @@ function makeMarkers(feature, layer) {
       modalImg.src = this.feature.properties.photo;
       modalImgP.src = this.feature.properties.photoPost;
       isNA(feature.properties.address)
-      console.log(isNA(this.feature.properties.address));
+      // console.log(isNA(this.feature.properties.address));
       captionTitle.innerHTML = "A Love Letter: " + this.feature.properties.titleL;
       captionName.innerHTML = "by " + this.feature.properties.name
       captionYear.innerHTML = "Year Posted: " + this.feature.properties.year
       captionAddress.innerHTML = "Address: " + this.feature.properties.address
       translationText.innerHTML = this.feature.properties.translation;
       // console.log (this.feature.properties.photoPost);
-      console.log(modalImgP.src);
+      console.log(modalImg.src);
       //Dissapear Posting Photo div if there is no posting photo
       if (modalImgP.src == "http://localhost:8000/"){
         document.getElementById("img02").style.display = "none";
