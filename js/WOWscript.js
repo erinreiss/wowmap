@@ -272,7 +272,7 @@ var myPoints = {
     },
     "properties": {
     "titleL":"Nha Trang One",
-    "name":"Anvita Pandit",
+    "name":"Avita Pandit",
     "photo":"images/wow_nhatrangone_E.jpg",
     "photoPost":"",
     "year":2020,
